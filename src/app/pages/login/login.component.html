@@ -1,0 +1,32 @@
+
+
+<div class="ring">
+    <i style="--clr:#00ff0a;"></i>
+    <i style="--clr:#ff0057;"></i>
+    <i style="--clr:#fffd44;"></i>
+    <div class="login">
+      <h2>Login</h2>
+      <div class="inputBx">
+        <input type="email" [(ngModel)]="loginObj.EmailId" name="EmailId" required>
+        <label>Email</label>
+      </div>
+      <div class="inputBx">
+        <input type="password" [(ngModel)]="loginObj.Password" name="Password" required>
+        <label>Password</label>
+      </div>
+      <div class="inputBx">
+     
+        <input type="submit" (click)="onLogin()" value="login">  
+      </div>
+      <div class="links">
+        <a href="#">Forget Password</a>
+        <a href="#">Signup</a>
+      </div>
+    </div>
+  </div>
+  
+  <!--                                         -->
+  <!-- A creation by N💖TIAKO                  -->
+  <!-- Codepen link: https://codepen.io/NTIAKO -->
+  <!-- GitHub link: https://github.com/ntiako1 -->
+  <!--                                         -->
